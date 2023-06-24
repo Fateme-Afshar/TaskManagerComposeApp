@@ -1,4 +1,7 @@
 package com.example.taskmanager.presentation.loginScreen
 
-class LoginVm {
+import androidx.lifecycle.ViewModel
+import com.example.taskmanager.data.repository.UserRepository
+
+class LoginVm(private val userRepository: UserRepository) : ViewModel(){
 }
